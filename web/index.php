@@ -103,13 +103,13 @@ color:#999;
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Name
 <br><br>
-<form id="formsubmit" action="mailto:someone@example.com" method="post" enctype="text/plain" style="display:inline;">
-  <input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="name"></div>
+<form id="formsubmit" action="mailto:info@iftachgroup.com" method="post" enctype="text/plain" style="display:inline;">
+  <input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="message"></div>
 
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Subject
 <br><br>
-<input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="mail"></div>
+<input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="subject"></div>
 
 <div style="margin-top:45px;">
 
