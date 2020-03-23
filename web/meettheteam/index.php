@@ -4,6 +4,8 @@ include "../header.php";
 
 ?>
 
+<title>Meet the Team</title>
+
 <div style="position:absolute;top:139px;left:0px;width:100%;text-align:center;background-color:#f5f5f5;">
 
 <div style="margin:auto;margin-top:30px;margin-bottom:30px;width:800px;text-align:left:">
