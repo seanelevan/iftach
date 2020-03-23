@@ -39,12 +39,12 @@ color:#999;
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
 
-<img src="https://i.imgur.com/PCY2CbG.png" style="height:30px;float:right;margin-right:15px;margin-top:6px;">
+<a href="https://www.facebook.com/IftachGroup/" style="text-decoration:none;"><img src="https://i.imgur.com/PCY2CbG.png" style="height:30px;float:right;margin-right:15px;margin-top:6px;"></a>
 
 
-<div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
+<div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;display:none;"></div>
 
-<img src="https://i.imgur.com/37xQE9q.png" style="height:30px;float:right;margin-right:15px;margin-top:6px;">
+<img src="https://i.imgur.com/37xQE9q.png" style="height:30px;float:right;margin-right:15px;margin-top:6px;display:none;">
 
 </div>
 
