@@ -14,9 +14,12 @@ include "../header.php";
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;">Our Mission</div>
 
-<div style="margin-top:22px;font-family:'Vollkorn';font-weight:400;font-size:24px;line-height:32px;text-align:left;color:#444444;">
+<div style="margin-top:22px;font-family:'Vollkorn';font-weight:400;font-size:22px;line-height:30px;text-align:left;color:#444444;">
   
-  Created in memory of Iftach Yavetz Z”L, mentor to all of us at the Israeli Trade Mission and giant in the field of Israeli Consulting, Iftach’s mission is to work in conjunction with the Israeli Consulate General in NYC to provide consulting services to Israeli startups looking to expand into the North American consumer market. We capitalize on our diverse team to infuse our entrepreneurial advisory with a fact-based, in-depth understanding of American culture and business environment. Israeli innovation deserves an American audience—and Iftach enables its clients to chart out new territories and turn risk and compliance into opportunities.
+  Created in memory of Iftach Yavetz Z”L, mentor to all of us at the Israeli Trade Mission and giant in the field of Israeli Consulting, <span style="color:#2cafe4;">Iftach</span>’s mission is to work in conjunction with the Israeli Consulate General in NYC to provide consulting services to Israeli startups looking to expand into the North American consumer market. We capitalize on our diverse team to infuse our entrepreneurial advisory with a fact-based, in-depth understanding of American culture and business environment. Israeli innovation deserves an American audience—and <span style="color:#2cafe4;">
+  </span> enables its clients to chart out new territories and turn risk and compliance into opportunities.
+  
+  <a href="http://iftach.herokuapp.com/#inquire"><span class="bluebutton">LET'S TALK</span></a>
 
 </div>
 
