@@ -21,7 +21,7 @@ include "header.php";
 
 <br><br><br>
 
-<a href=".../ourmission" style="text-decoration:none;"><span class="bluebutton">OUR MISSION</span></a><a href=".../ourteam" style="text-decoration:none;"><span class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:20px;padding-left:50px;padding-right:50px;box-shadow:inset 0px 0px 0px 2px #2cafe4, 0px 10px 30px #CDECF9;position:relative;left:15px;">OUR TEAM</span></a>
+<a href="../ourmission" style="text-decoration:none;"><span class="bluebutton">OUR MISSION</span></a><a href="../ourteam" style="text-decoration:none;"><span class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:20px;padding-left:50px;padding-right:50px;box-shadow:inset 0px 0px 0px 2px #2cafe4, 0px 10px 30px #CDECF9;position:relative;left:15px;">OUR TEAM</span></a>
 
 </div>
 
