@@ -75,7 +75,7 @@ color:#999;
 
 </div>
 
-<div style="position:absolute;top:139px;left:0px;width:100%;height:2460px;background-image:url('https://i.imgur.com/8NKlT0z.png');background-position:center;background-size:1366px;">
+<div style="position:absolute;top:139px;left:0px;width:100%;height:2460px;background-image:url('https://i.imgur.com/8NKlT0z.png');margin-bottom:80px;background-position:center;background-size:1366px;">
 
 <div style="margin-top:280px;text-align:center;">
 
