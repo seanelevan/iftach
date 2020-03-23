@@ -132,6 +132,12 @@ color:#999;
 
 </div>
 
+<div style="position:absolute;top:140px;right:40px;">
+  
+  <div id="fb-root"></div> <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script> <div class="fb-page" data-href="https://www.facebook.com/IftachGroup/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/IftachGroup/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/IftachGroup/">The Iftach Group</a></blockquote></div>
+
+</div>
+
 <script>
 function flourish(){
 
