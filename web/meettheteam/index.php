@@ -14,9 +14,13 @@ include "../header.php";
   
 $teammembers = array("Jonathan Karten", "Ari Holzhauer", "David Heagy", "Phil Shnayderman", "Thomas Li", "Noa Amzallag", "Hobart Pao", "Abigale Wang", "Sean Le Van");
   
+  $i = 0;
+  
 foreach($teammembers as $team){
   
-  echo '<div style="margin:auto;width:800px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);"> <div style="padding:30px;"> <div style="font-family:\'Montserrat\';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;">".$team."</div> <div style="margin-top:22px;font-family:\'Vollkorn\';font-weight:400;font-size:18px;line-height:28px;text-align:left;color:#444444;">Member of Iftach Executive Board</div> </div> </div> </div>';
+  $i++;
+  
+  echo '<div style="margin:auto;width:800px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);"> <div style="padding:30px;"> <div style="font-family:\'Montserrat\';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;"><span style="color:#f5f5f5;">#'.$i.'</span> '.$team.'</div> <div style="margin-top:22px;font-family:\'Vollkorn\';font-weight:400;font-size:18px;line-height:28px;text-align:left;color:#444444;">Member of Iftach Executive Board</div> </div> </div>';
   
 }
   
