@@ -29,12 +29,12 @@ color:#999;
 
 <div style="position:absolute;right:164px;top:28px;">
 
-<a href="../#info" style="text-decoration:none;"><div class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:13px;padding-left:30px;padding-right:30px;box-shadow:inset 0px 0px 0px 1px #2cafe4, 0px 10px 30px -10px #CDECF9;font-size:12px;letter-spacing:0.4px;float:right;">LETS TALK</div></a>
+<a href="../#inquire" style="text-decoration:none;"><div class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:13px;padding-left:30px;padding-right:30px;box-shadow:inset 0px 0px 0px 1px #2cafe4, 0px 10px 30px -10px #CDECF9;font-size:12px;letter-spacing:0.4px;float:right;">LETS TALK</div></a>
 
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
 
-<form action="../search" style="display:inline;"><input type="text" style="float:right;outline:0;width:160px;border:0px;background-color:#EEEEEE;border-radius:2px;padding:10px;padding-left:40px;padding-right:16px;font-family:'Montserrat';font-size:11px;font-weight:600;color:#111;margin-right:20px;margin-top:4px;background-image:url('https://i.imgur.com/Et45qZ1.png');background-size:33px;background-repeat:no-repeat;" name="q" placeholder="Search"><input type="submit" style="display:none;"></form>
+<form action="../search" style="display:inline;"><input type="text" style="float:right;outline:0;width:160px;border:0px;background-color:#EEEEEE;border-radius:2px;padding:10px;padding-left:40px;padding-right:16px;font-family:'Montserrat';font-size:11px;font-weight:600;color:#111;margin-right:20px;margin-top:4px;background-image:url('https://i.imgur.com/Et45qZ1.png');background-size:33px;background-repeat:no-repeat;" name="q" placeholder="Search" autocomplete="off"><input type="submit" style="display:none;"></form>
 
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
