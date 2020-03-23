@@ -29,12 +29,12 @@ color:#999;
 
 <div style="position:absolute;right:164px;top:28px;">
 
-<div class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:13px;padding-left:30px;padding-right:30px;box-shadow:inset 0px 0px 0px 1px #2cafe4, 0px 10px 30px -10px #CDECF9;font-size:12px;letter-spacing:0.4px;float:right;">LETS TALK</div>
+<div class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:13px;padding-left:30px;padding-right:30px;box-shadow:inset 0px 0px 0px 1px #2cafe4, 0px 10px 30px -10px #CDECF9;font-size:12px;letter-spacing:0.4px;float:right;" onclick='document.getElementById("inquire").scrollIntoView(true)'>LETS TALK</div>
 
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
 
-<form action="https://cse.google.com/cse" style="display:inline"><input type="text" name="cse" value="009301861100928635810:sudw51wdu3m" style="display:none;"><input type="text" style="float:right;outline:0;width:160px;border:0px;background-color:#EEEEEE;border-radius:2px;padding:10px;padding-left:40px;padding-right:16px;font-family:'Montserrat';font-size:11px;font-weight:600;color:#111;margin-right:20px;margin-top:4px;background-image:url('https://i.imgur.com/Et45qZ1.png');background-size:33px;background-repeat:no-repeat;" name="q" placeholder="Search"><input type="submit" style="display:none;"></form>
+<form action="../search" style="display:inline;"><input type="text" style="float:right;outline:0;width:160px;border:0px;background-color:#EEEEEE;border-radius:2px;padding:10px;padding-left:40px;padding-right:16px;font-family:'Montserrat';font-size:11px;font-weight:600;color:#111;margin-right:20px;margin-top:4px;background-image:url('https://i.imgur.com/Et45qZ1.png');background-size:33px;background-repeat:no-repeat;" name="q" placeholder="Search"><input type="submit" style="display:none;"></form>
 
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
@@ -78,11 +78,11 @@ color:#999;
 
 <div style="margin-top:280px;text-align:center;">
 
-<div style="padding:16px;padding-top:24px;padding-bottom:24px;width:48px;margin:auto;border-radius:100%;border:2px solid #FFFFFF;transition:all 0.5s;top:0px;position:relative;transform:scale(0.6);" id="flourish">
+<div style="padding:16px;padding-top:24px;padding-bottom:24px;width:48px;margin:auto;border-radius:100%;border:2px solid #FFFFFF;transition:all 0.5s;top:0px;position:relative;transform:scale(0.6);cursor:pointer;" id="flourish" onclick='document.getElementById("info").scrollIntoView(true)'>
 <img src="https://i.imgur.com/ItJRh1j.png" style="width:48px;">
 </div>
 
-<div style="margin:auto;margin-top:800px;width:700px;">
+<div style="margin:auto;margin-top:800px;width:700px;" id="info">
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;">Bringing Israeli companies to the North American market</div>
 
@@ -99,7 +99,7 @@ color:#999;
 
 <div style="padding:30px;">
 
-<div style="font-family:'Montserrat';font-weight:700;font-size:30px;color:#444444;">Inquire about our Services</div>
+<div style="font-family:'Montserrat';font-weight:700;font-size:30px;color:#444444;" id="inquire">Inquire about our Services</div>
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Name
 <br><br>
