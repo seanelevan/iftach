@@ -59,8 +59,10 @@ color:#999;
 
 <div style="padding-left:164px;padding-right:164px;">
 
-<a href="../"><div style="color:#2cafe4;font-weight:600;font-family:'Montserrat';font-size:13px;border-bottom:4px solid #2cafe4;padding:7px;padding-top:0px;line-height:17px;float:left;text-align:center;letter-spacing:0.6px;"><span style="font-size:24px;">&bull;</span><br>Home</div></a>
+<a href="../"><div style="<?php if($_SERVER['REQUEST_URI'] != "/"){ echo "display:none;"; } ?>color:#2cafe4;font-weight:600;font-family:'Montserrat';font-size:13px;border-bottom:4px solid #2cafe4;padding:7px;padding-top:0px;line-height:17px;float:left;text-align:center;letter-spacing:0.6px;"><span style="font-size:24px;">&bull;</span><br>Home</div></a>
 </div>
+  
+  <a href="../"><div style="display:none;<?php if($_SERVER['REQUEST_URI'] = "/"){ echo "display:block;"; } ?>color:#999999;font-weight:600;font-family:'Montserrat';font-size:13px;padding:16px;line-height:17px;float:left;text-align:center;letter-spacing:0.6px;">Home</div></a>
 
 <div style="float:left;margin-top:14px;margin-left:15px;height:20px;width:1px;background-color:#c4c4c4;"></div>
 
