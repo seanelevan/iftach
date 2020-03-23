@@ -91,7 +91,7 @@ color:#999;
 
 <br><br><br>
 
-<span class="bluebutton">OUR MISSION</span><span class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:20px;padding-left:50px;padding-right:50px;box-shadow:inset 0px 0px 0px 2px #2cafe4, 0px 10px 30px #CDECF9;position:relative;left:15px;">CAPABILITIES</span>
+<span class="bluebutton">OUR MISSION</span><span class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:20px;padding-left:50px;padding-right:50px;box-shadow:inset 0px 0px 0px 2px #2cafe4, 0px 10px 30px #CDECF9;position:relative;left:15px;">OUR TEAM</span>
 
 </div>
 
@@ -103,16 +103,19 @@ color:#999;
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Name
 <br><br>
-<input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;"></div>
+<form id="formsubmit" action="mailto:someone@example.com" method="post" enctype="text/plain" style="display:inline;">
+  <input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="name"></div>
 
 
 <div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Subject
 <br><br>
-<input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;"></div>
+<input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="mail"></div>
 
 <div style="margin-top:45px;">
 
-<span class="bluebutton" style="border-radius:100px;">SUBMIT</span>
+<span class="bluebutton" style="border-radius:100px;" onclick='document.getElementById("formsubmit").submit();'>SUBMIT</span>
+  
+  </form>
 
 </div>
 
