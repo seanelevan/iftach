@@ -12,7 +12,7 @@ include "../header.php";
 
 <?php
   
-$teammembers = array("Jonathan Karten", "Ari Holzhauer", "David Heagy", "Phil Shnayderman", "Thomas Li", "Noa Amzallag", "Hobart Pao", "Abigale Wang", "Sean Le Van");
+$teammembers = array("Jonathan Karten, Founder", "Ari Holzhauer, President", "Flurin Domenig, Chief Operating Officer", "David Heagy", "Phil Shnayderman", "Thomas Li", "Noa Amzallag", "Hobart Pao", "Abigale Wang", "Sean Le Van");
   
   $i = 0;
   
