@@ -34,7 +34,7 @@ color:#999;
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
 
-<form action="https://cse.google.com/cse" style="display:inline"><inpu type="text" name="cse" value="009301861100928635810:sudw51wdu3m" style="display:none;"><input type="text" style="float:right;outline:0;width:160px;border:0px;background-color:#EEEEEE;border-radius:2px;padding:10px;padding-left:40px;padding-right:16px;font-family:'Montserrat';font-size:11px;font-weight:600;color:#111;margin-right:20px;margin-top:4px;background-image:url('https://i.imgur.com/Et45qZ1.png');background-size:33px;background-repeat:no-repeat;" name="q" placeholder="Search"></form>
+<form action="https://cse.google.com/cse" style="display:inline"><input type="text" name="cse" value="009301861100928635810:sudw51wdu3m" style="display:none;"><input type="text" style="float:right;outline:0;width:160px;border:0px;background-color:#EEEEEE;border-radius:2px;padding:10px;padding-left:40px;padding-right:16px;font-family:'Montserrat';font-size:11px;font-weight:600;color:#111;margin-right:20px;margin-top:4px;background-image:url('https://i.imgur.com/Et45qZ1.png');background-size:33px;background-repeat:no-repeat;" name="q" placeholder="Search"></form>
 
 
 <div style="float:right;margin-top:12px;margin-right:20px;height:20px;width:1px;background-color:#c4c4c4;"></div>
@@ -49,7 +49,7 @@ color:#999;
 </div>
 
 <div style="padding-left:164px;padding-top:15px;">
-<img src="https://i.imgur.com/leyombT.png" style="height:64px;">
+  <a href="../" style="text-decoration:none;"><img src="https://i.imgur.com/leyombT.png" style="height:64px;"></a>
 
 </div>
 
@@ -74,7 +74,7 @@ color:#999;
 
 </div>
 
-<div style="position:absolute;top:139px;left:0px;width:100%;height:2460px;background-image:url('https://i.imgur.com/8NKlT0z.png');margin-bottom:80px;background-position:center;background-size:1366px;">
+<div style="position:absolute;top:139px;left:0px;width:100%;height:2458px;background-image:url('https://i.imgur.com/8NKlT0z.png');margin-bottom:80px;background-position:center;background-size:1366px;">
 
 <div style="margin-top:280px;text-align:center;">
 
