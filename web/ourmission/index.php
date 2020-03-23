@@ -12,9 +12,11 @@ include "../header.php";
 
 <div style="padding:30px;">
 
-<div style="font-family:'Montserrat';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;">Bringing Israeli companies to the North American market</div>
+<div style="font-family:'Montserrat';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;">Our Mission</div>
 
-<div style="margin-top:22px;font-family:'Vollkorn';font-weight:400;font-size:24px;line-height:30px;text-align:left;color:#444444;">We offer targeted, innovative market research and strategic insights tailored to the needs of Israeli companies hoping to penetrate the American market. Israeli innovation deserves an American audience — <span style="color:#2cafe4;">Iftach</span> is here to enable its clients to chart out new territories and turn risk &amp; compliance into opportunities.
+<div style="margin-top:22px;font-family:'Vollkorn';font-weight:400;font-size:24px;line-height:30px;text-align:left;color:#444444;">
+  
+  Created in memory of Iftach Yavetz Z”L, mentor to all of us at the Israeli Trade Mission and giant in the field of Israeli Consulting, Iftach’s mission is to work in conjunction with the Israeli Consulate General in NYC to provide consulting services to Israeli startups looking to expand into the North American consumer market. We capitalize on our diverse team to infuse our entrepreneurial advisory with a fact-based, in-depth understanding of American culture and business environment. Israeli innovation deserves an American audience—and Iftach enables its clients to chart out new territories and turn risk and compliance into opportunities.
 
 </div>
 
