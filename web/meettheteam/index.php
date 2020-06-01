@@ -22,7 +22,7 @@ foreach($teammembers as $team){
   
   $i++;
   
-  echo '<div style="margin:auto;width:800px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);margin-bottom:30px;"> <div style="padding:30px;"> <div style="font-family:\'Montserrat\';font-weight:700;font-size:34px;color:#2CAFE4;text-align:left;"><span style="color:#f5f5f5;">#'.$i.' &bull;</span> '.$team.'</div> <div style="margin-top:22px;font-family:\'Vollkorn\';font-weight:400;font-size:18px;line-height:28px;text-align:left;color:#444444;">'.$descriptions[$i].'</div> </div> </div>';
+  echo '<div style="margin:auto;width:800px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);margin-bottom:30px;"> <div style="padding:30px;"> <div style="font-family:\'Montserrat\';font-weight:700;font-size:34px;color:#2CAFE4;text-align:left;"><span style="color:#f5f5f5;">#'.$i.' &bull;</span> '.$team.'</div> <div style="margin-top:22px;font-family:\'Vollkorn\';font-weight:400;font-size:18px;line-height:28px;text-align:left;color:#444444;">'.$descriptions[$i-1].'</div> </div> </div>';
   
 }
   
