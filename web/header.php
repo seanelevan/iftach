@@ -71,6 +71,10 @@ color:#999;
 
 <a href="../meettheteam"><div style="color:#999999;font-weight:600;font-family:'Montserrat';font-size:13px;padding:16px;line-height:17px;float:left;text-align:center;letter-spacing:0.6px;">Meet the Team</div></a>
 
+<div style="float:left;margin-top:14px;height:20px;width:1px;background-color:#c4c4c4;"></div>
+
+<a href="../recommendations"><div style="color:#999999;font-weight:600;font-family:'Montserrat';font-size:13px;padding:16px;line-height:17px;float:left;text-align:center;letter-spacing:0.6px;">Recommendations</div></a>
+
 </div>
 
 </div>
