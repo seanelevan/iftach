@@ -1,38 +1,92 @@
 <?php
 
-include "../header.php";
+include "header.php";
 
 ?>
 
-<title>Iftach - Meet the Team</title>
+<div style="position:absolute;top:139px;left:0px;width:100%;height:2458px;background-image:url('https://i.imgur.com/8NKlT0z.png');margin-bottom:80px;background-position:center;background-size:1366px;">
 
-<div style="position:absolute;top:139px;left:0px;width:100%;text-align:center;background-color:#f5f5f5;">
+<div style="margin-top:280px;text-align:center;">
 
-<div style="margin:auto;margin-top:30px;margin-bottom:30px;width:800px;text-align:left:">
-
-<?php
-  
-$teammembers = array("The Government of Israel Economic Mission in New York",
-                    "Orly Cactus",
-                    "Booth Guru",
-                    "Y2Risk");
-  
-  $descriptions = array("The goal of the Israel Economic Mission is to promote and facilitate trade and investment between Israel and the United States. The Iftach Group has become a key partner and valuable resource in achieving that goal. Their commitment, work ethic, flexibility, and on-the-ground research skills have allowed them to provide invaluable assistance to a wide variety of Israeli businesses.",
-                       "The Iftach Group provided our business with consulting services that were absolutely indispensable towards achieving our goal of expanding operations into the United States. Their team put their wide variety of skills at our disposal, taking on any task we required and accomplishing it efficiently. Whether they were scouting locations for a new farming operation, redesigning our packaging in order to better appeal to the U.S. market, or making connections with potential distribution partners, The Iftach Group always prioritized our company’s needs.",
-                       "Our company’s proprietary software is one of our greatest strengths — The Iftach Group recognized that strength, and worked with us to research various new applications for that software within market sectors we had not yet explored. Their carefully researched analyses not only helped to guide our strategy, they also saved us crucial time and effort as we work towards expanding our U.S. operations. Thanks to The Iftach Group, our team was able to concentrate our efforts where it mattered most.",
-                       "It was a great pleasure to work with the The Iftach Group #liquidityrisk in the past couple of months. Jonathan Karten and his team deliver a spot on analysis of the #financialrisk sector and help Y2RISK focus on our target market. We are highly appreciated of the professional delivery and depth of their report. Looking forward to continue this great collaboration.
-Thank you for all the team at The Iftach Group !!!");
-  
-  $i = 0;
-  
-foreach($teammembers as $team){
-  
-  $i++;
-  
-  echo '<div style="margin:auto;width:800px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);margin-bottom:30px;"> <div style="padding:30px;"> <div style="font-family:\'Montserrat\';font-weight:700;font-size:34px;color:#2CAFE4;text-align:left;"><span style="color:#f5f5f5;">#'.$i.' &bull;</span> '.$team.'</div> <div style="margin-top:22px;font-family:\'Vollkorn\';font-weight:400;font-size:18px;line-height:28px;text-align:left;color:#444444;">'.$descriptions[$i-1].'</div> </div> </div>';
-  
-}
-  
-?>
-  
+<div style="padding:16px;padding-top:24px;padding-bottom:24px;width:48px;margin:auto;border-radius:100%;border:2px solid #FFFFFF;transition:all 0.5s;top:0px;position:relative;transform:scale(0.6);cursor:pointer;" id="flourish" onclick='document.getElementById("info").scrollIntoView(true)'>
+<img src="https://i.imgur.com/ItJRh1j.png" style="width:48px;">
 </div>
+
+<div style="margin:auto;margin-top:800px;width:700px;" id="info">
+
+<div style="font-family:'Montserrat';font-weight:700;font-size:36px;color:#2CAFE4;text-align:left;">Bringing Israeli companies to the North American market</div>
+
+<div style="margin-top:22px;font-family:'Vollkorn';font-weight:400;font-size:24px;line-height:30px;text-align:left;color:#444444;">We offer targeted, innovative market research and strategic insights tailored to the needs of Israeli companies hoping to penetrate the American market. Israeli innovation deserves an American audience — <span style="color:#2cafe4;">Iftach</span> is here to enable its clients to chart out new territories and turn risk & compliance into opportunities.
+
+
+<br><br><br>
+
+<a href="../ourmission" style="text-decoration:none;"><span class="bluebutton">OUR MISSION</span></a><a href="../ourteam" style="text-decoration:none;"><span class="bluebutton" style="color:#2CAFE4;background-color:#FFFFFF;padding:20px;padding-left:50px;padding-right:50px;box-shadow:inset 0px 0px 0px 2px #2cafe4, 0px 10px 30px #CDECF9;position:relative;left:15px;">OUR TEAM</span></a>
+
+</div>
+
+<div style="margin:auto;margin-top:290px;width:700px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);height:350px;">
+
+<div style="padding:30px;">
+
+<div style="font-family:'Montserrat';font-weight:700;font-size:30px;color:#444444;" id="inquire">Inquire about our Services</div>
+
+<div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Name
+<br><br>
+<form id="formsubmit" action="mailto:jonathan@iftachgroup.com" method="post" enctype="text/plain" style="display:inline;">
+  <input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="message"></div>
+
+
+<div style="font-family:'Montserrat';font-weight:700;font-size:14px;color:#444444;margin-top:30px;text-align:left;">Subject
+<br><br>
+<input type="text" style="outline:0;width:100%;border:0px;background-color:#EEEEEE;border-radius:2px;padding:15px;font-family:'Montserrat';font-size:13px;font-weight:500;color:#111;" name="subject"></div>
+
+<div style="margin-top:45px;">
+
+<span class="bluebutton" style="border-radius:100px;" onclick='document.getElementById("formsubmit").submit();'>SUBMIT</span>
+  
+  </form>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+</div>
+
+<div style="position:absolute;top:200px;right:164px;">
+  
+  <div id="fb-root"></div> <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script> <div class="fb-page" data-href="https://www.facebook.com/IftachGroup/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/IftachGroup/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/IftachGroup/">The Iftach Group</a></blockquote></div>
+
+</div>
+
+<script>
+function flourish(){
+
+var property = document.getElementById("flourish").style.top;
+
+if(property == "0px"){
+
+document.getElementById("flourish").style.top="8px";
+
+}
+
+else{
+
+document.getElementById("flourish").style.top="0px";
+
+}
+
+
+}
+
+setInterval("flourish()", 500);
+</script>
