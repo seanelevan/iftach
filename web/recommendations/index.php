@@ -23,7 +23,7 @@ foreach($teammembers as $team){
   $i++;
   
   echo '<div style="margin:auto;width:800px;background-color:#FFFFFF;box-shadow:10px 0px 30px rgba(0, 0, 0, 0.1);margin-bottom:30px;"> <div style="padding:30px;">';
-  echo '<div style="border: 3px solid #FFFFFF;text-shadow: 10px 0px 30px rgb(0 0 0 / 10%);padding-top: 25px;color: #FFFFFF;margin-top: -6px;padding-left: 13px;font-weight: 600;margin-right: 30px;border-radius: 100%;font-size: 60px;float: left;padding-bottom: 4px;box-shadow: 0px 6px 18px rgb(0 0 0 / 15%);padding-right: 14px;/* line-height: 0px; */line-height: 27px;background-color: #2CAFE4;">“</div>';
+  echo '<div style="border: 3px solid #FFFFFF;text-shadow: 10px 0px 30px rgb(0 0 0 / 10%);padding-top: 25px;color: #FFFFFF;margin-top: -10px;padding-left: 13px;font-weight: 600;margin-right: 30px;border-radius: 100%;font-size: 60px;float: left;padding-bottom: 4px;box-shadow: 0px 6px 18px rgb(0 0 0 / 15%);padding-right: 14px;/* line-height: 0px; */line-height: 27px;background-color: #2CAFE4;">“</div>';
   echo '<div style="font-family:\'Montserrat\';font-weight:400;font-size:34px;color:#2CAFE4;text-align:left;"><span style="color:#f5f5f5;">#'.$i.' &bull;</span> '.$team.'</div> <div style="margin-top:22px;font-family:\'Vollkorn\';font-weight:400;font-size:18px;line-height:28px;text-align:left;color:#444444;">'.$descriptions[$i-1].'</div> </div> </div>';
   
 }
